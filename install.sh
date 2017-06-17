@@ -39,7 +39,7 @@ echo "$time [INFO] Cleaning up..."
 cd ..
 rm -rf Leveryl-master
 rm -rf master.zip
-wget --no-check-certificate https://raw.githubusercontent.com/LeverylTeam/Leveryl/master/LICENSE.md
+wget --no-check-certificate https://raw.githubusercontent.com/LeverylTeam/Leveryl/master/LICENSE
 time=$(date +"%T")
 echo "$time [INFO] Installing x64 PHP binary..."
 wget --no-check-certificate https://bintray.com/artifact/download/pocketmine/PocketMine/PHP_7.0.2_x86-64_Linux.tar.gz
