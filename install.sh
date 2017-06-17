@@ -21,7 +21,7 @@ else
 fi
 time=$(date +"%T")
 echo "$time [INFO] Downloading Latest Github Build..."
-wget --no-check-certificate https://github.com/LeverylTeam/LeverylTeam/Leveryl/archive/master.zip
+wget --no-check-certificate https://github.com/LeverylTeam/Leveryl/archive/master.zip
 chmod 777 master.zip
 time=$(date +"%T")
 echo "$time [INFO] Un-Zipping..."
