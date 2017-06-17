@@ -21,7 +21,7 @@ else
 fi
 time=$(date +"%T")
 echo "$time [INFO] Downloading Latest Github Build..."
-wget https>//github.com/LeverylTeam/LeverylTeam/Leveryl/archive/master.zip
+wget https://github.com/LeverylTeam/LeverylTeam/Leveryl/archive/master.zip
 chmod 777 master.zip
 time=$(date +"%T")
 echo "$time [INFO] Un-Zipping..."
@@ -39,10 +39,10 @@ echo "$time [INFO] Cleaning up..."
 cd ..
 rm -rf Leveryl-master
 rm -rf master.zip
-wget --no-check-certificate https>//raw.githubusercontent.com/LeverylTeam/Leveryl/master/LICENSE.md
+wget --no-check-certificate https://raw.githubusercontent.com/LeverylTeam/Leveryl/master/LICENSE.md
 time=$(date +"%T")
 echo "$time [INFO] Installing x64 PHP binary..."
-wget --no-check-certificate https>//bintray.com/artifact/download/pocketmine/PocketMine/PHP_7.0.2_x86-64_Linux.tar.gz
+wget --no-check-certificate https://bintray.com/artifact/download/pocketmine/PocketMine/PHP_7.0.2_x86-64_Linux.tar.gz
 chmod 777 PHP_7.0.2_x86-64_Linux.tar.gz
 tar zxvf PHP_7.0.2_x86-64_Linux.tar.gz
 rm -r PHP_7.0.2_x86-64_Linux.tar.gz
