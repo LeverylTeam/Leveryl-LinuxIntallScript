@@ -42,7 +42,7 @@ rm -rf master.zip
 wget --no-check-certificate https://raw.githubusercontent.com/LeverylTeam/Leveryl/master/LICENSE
 time=$(date +"%T")
 echo "$time [INFO] Installing x64 PHP binary..."
-wget --no-check-certificate https://bintray.com/artifact/download/pocketmine/PocketMine/PHP_7.0.2_x86-64_Linux.tar.gz
+wget --no-check-certificate https://raw.githubusercontent.com/LeverylTeam/PHP7-Binaries/master/PHP-7.0.14_Linux-x84_64.zip
 chmod 777 PHP_7.0.2_x86-64_Linux.tar.gz
 tar zxvf PHP_7.0.2_x86-64_Linux.tar.gz
 rm -r PHP_7.0.2_x86-64_Linux.tar.gz
